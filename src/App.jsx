@@ -1,11 +1,24 @@
 import { useState } from 'react'
 
-function App() {
+function Header() {
+  <header>
+  <h3>Result's</h3>
+
+  <span>Wagt</span>
+</header>
+}
+
+export default function App() {
   return (
-    <>
-      Salam updated 
-    </>
+    <div>
+      <Header />
+        <main>
+          <h1>Hello from React!!</h1>
+        </main>
+    </div>
   )
 }
 
-export default App
+
+
+ 
